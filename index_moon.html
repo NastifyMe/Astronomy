@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main/Moon/style_moon.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="container_header">
+                <nav class="nav-header">
+                    <img src="./images/header/log_header.png" alt="" class="header_logo">
+                    <ul class="header_list">
+                        <li class="header_item"><a href="./index.html" class="header_link">Головна</a></li>
+                        <li class="header_item"><a href="" class="header_link">Новини</a></li>
+                        <li class="header_item"><a href="" class="header_link">Супутники</a></li>
+                        <li class="header_item"><a href="" class="header_link">Фази луни</a></li>
+                        <li class="header_item"><a href="" class="header_link">Інфографіка</a></li>
+                    </ul>
+                    <div class="info">
+                        <a href="" class="header_a_search">
+                            <img src="./images/header/search_header.png" alt="" class="header_logo-search">
+                        </a>
+                        <a href="" class="header_languages">Українська</a>
+                    </div>
+                </nav>
+
+            </div>
+        </header>
+        <main>
+            <section class="Moon">
+                <div class="container_moon">
+                    <h1 class="title_moon">Фази луни</h1>
+                    <input class="moon_input" type="date" name="" id="" style="background-color: #1f1f30; border: 0px; color: #fff;">
+                    <a class="geo" href="">Київ</a>
+                    <img src="./images_moon/moon/moon_1.png" alt="" class="moon_img">
+                </div>
+            </section>
+            <section class="calendar">
+                <div class="container_phase">
+                    <div id="message-container">
+                        <div id="message-title"></div>
+                        <div id="message-text"></div>
+                    </div>
+                    <div id="message-text"></div>
+                    <div class="header">Лютий 2025</div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Пн</th>
+                                <th>Вт</th>
+                                <th>Ср</th>
+                                <th>Чт</th>
+                                <th>Пт</th>
+                                <th>Сб</th>
+                                <th>Нд</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td></td><td></td><td></td><td></td>
+                                <td></td>
+                                <td onclick="showMessage('Зростаючий серп','Друга фаза місячного циклу; настає між молодиком і першою чвертю. Зростання фази означають збільшення освітленості Місяця, тому на початку цієї фази Місяць має форму тонкого півмісяця, а потім освітлена область поступово збільшується поки не настає фаза першої чверті.')" tabindex="0"><img class="phase_img" src="./images_moon/phase of moon/phase_1.png" alt="Waxing Crescent"></td>
+                                <td onclick="showMessage('Зростаючий серп','Друга фаза місячного циклу; настає між молодиком і першою чвертю. Зростання фази означають збільшення освітленості Місяця, тому на початку цієї фази Місяць має форму тонкого півмісяця, а потім освітлена область поступово збільшується поки не настає фаза першої чверті.')" tabindex="0"><img class="phase_img" src="./images_moon/phase of moon/phase_2.png" alt="First Quarter"></td>
+                            </tr>
+                            <tr>
+                                <td onclick="showMessage('Зростаючий серп','Друга фаза місячного циклу; настає між молодиком і першою чвертю. Зростання фази означають збільшення освітленості Місяця, тому на початку цієї фази Місяць має форму тонкого півмісяця, а потім освітлена область поступово збільшується поки не настає фаза першої чверті.')" tabindex="0"><img class="phase_img" src="./images_moon/phase of moon/phase_3.png" alt="Waxing Gibbous"></td>
+                                <td onclick="showMessage('Зростаючий серп','Друга фаза місячного циклу; настає між молодиком і першою чвертю. Зростання фази означають збільшення освітленості Місяця, тому на початку цієї фази Місяць має форму тонкого півмісяця, а потім освітлена область поступово збільшується поки не настає фаза першої чверті.')" tabindex="0"><img class="phase_img" src="./images_moon/phase of moon/phase_4.png" alt="Full Moon"></td>
+                                <td onclick="showMessage('Перша чверть','Третя фаза місячного циклу; настає, коли Місяць проходить чверть шляху своєю орбітою. При спостереженні із Землі Місяць розташовується під прямим кутом по відношенню до Сонця. Вона виглядає наполовину освітленою і помітна на вечірньому небі.')" tabindex="0"><img class="phase_img" src="./images_moon/phase of moon/phase_5.png" alt="Waning Gibbous"></td>
+                                <td onclick="showMessage('Зростаючий Місяць','Четверта фаза місячного циклу; настає між першою чвертю і повним місяцем. Зростаюча фаза являє собою збільшення освітленості Місяця, тому на початку цієї фази Місяць виглядає наполовину освітленим, а потім освітлена область поступово збільшується доки не настає повний місяць.')" tabindex="0"><img class="phase_img" src="./images_moon/phase of moon/phase_6.png" alt="Last Quarter"></td>
+                                <td onclick="showMessage('Зростаючий Місяць','Четверта фаза місячного циклу; настає між першою чвертю і повним місяцем. Зростаюча фаза являє собою збільшення освітленості Місяця, тому на початку цієї фази Місяць виглядає наполовину освітленим, а потім освітлена область поступово збільшується доки не настає повний місяць.')" tabindex="0"><img class="phase_img" src="./images_moon/phase of moon/phase_7.png" alt="Waning Crescent"></td>
+                                <td onclick="showMessage('Зростаючий Місяць','Четверта фаза місячного циклу; настає між першою чвертю і повним місяцем. Зростаюча фаза являє собою збільшення освітленості Місяця, тому на початку цієї фази Місяць виглядає наполовину освітленим, а потім освітлена область поступово збільшується доки не настає повний місяць.')" tabindex="0"><img class="phase_img" src="./images_moon/phase of moon/phase_8.png" alt="New Moon"></td>
+                                <td onclick="showMessage('Зростаючий Місяць','Четверта фаза місячного циклу; настає між першою чвертю і повним місяцем. Зростаюча фаза являє собою збільшення освітленості Місяця, тому на початку цієї фази Місяць виглядає наполовину освітленим, а потім освітлена область поступово збільшується доки не настає повний місяць.')" tabindex="0"><img class="phase_img" src="./images_moon/phase of moon/phase_9.png" alt="Waxing Crescent"></td>
+                            </tr>
+                            <tr>
+                                <td onclick="showMessage('Зростаючий Місяць','Четверта фаза місячного циклу; настає між першою чвертю і повним місяцем. Зростаюча фаза являє собою збільшення освітленості Місяця, тому на початку цієї фази Місяць виглядає наполовину освітленим, а потім освітлена область поступово збільшується доки не настає повний місяць.')" tabindex="0"><img class="phase_img" src="./images_moon/phase of moon/phase_10.png" alt="First Quarter"></td>
+                                <td onclick="showMessage('Зростаючий Місяць','Четверта фаза місячного циклу; настає між першою чвертю і повним місяцем. Зростаюча фаза являє собою збільшення освітленості Місяця, тому на початку цієї фази Місяць виглядає наполовину освітленим, а потім освітлена область поступово збільшується доки не настає повний місяць.')" tabindex="0" class="phase_img_11"><img class="phase_img" src="./images_moon/phase of moon/phase_11.png" alt="Waxing Gibbous"></td>
+                                <td onclick="showMessage('Повний місяць', 'Пята фаза місячного циклу; настає, коли Місяць проходить половину своєї орбіти. Місяць і Сонце розташовані по різні боки Землі, тому вся сторона Місяця, звернена до Землі, освітлена. На нічному небі Місяць виглядає як яскравий круглий диск і видно всю ніч.')" tabindex="0" class="phase_img_12"><img class="phase_img" src="./images_moon/phase of moon/phase_12.png" alt="Full Moon"></td>
+                                <td onclick="showMessage('Зменшуючий Місяць', 'Шоста фаза місячного циклу; настає між повним місяцем і фазою останньої чверті. Зменшувальні фази означають зменшення освітленості Місяця, тому на початку цієї фази ми бачимо майже повністю освітлений місячний диск, а потім освітлена область поступово зменшується, поки не настає фаза останньої чверті.')" tabindex="0"><img class="phase_img" src="./images_moon/phase of moon/phase_13.png" alt="Waning Gibbous"></td>
+                                <td onclick="showMessage('Зменшуючий Місяць', 'Шоста фаза місячного циклу; настає між повним місяцем і фазою останньої чверті. Зменшувальні фази означають зменшення освітленості Місяця, тому на початку цієї фази ми бачимо майже повністю освітлений місячний диск, а потім освітлена область поступово зменшується, поки не настає фаза останньої чверті.')" tabindex="0"><img class="phase_img" src="./images_moon/phase of moon/phase_14.png" alt="Last Quarter"></td>
+                                <td onclick="showMessage('Зменшуючий Місяць', 'Шоста фаза місячного циклу; настає між повним місяцем і фазою останньої чверті. Зменшувальні фази означають зменшення освітленості Місяця, тому на початку цієї фази ми бачимо майже повністю освітлений місячний диск, а потім освітлена область поступово зменшується, поки не настає фаза останньої чверті.')" tabindex="0"><img class="phase_img" src="./images_moon/phase of moon/phase_15.png" alt="Waning Crescent"></td>
+                                <td class="td_16" onclick="showMessage('Зменшуючий Місяць', 'Шоста фаза місячного циклу; настає між повним місяцем і фазою останньої чверті. Зменшувальні фази означають зменшення освітленості Місяця, тому на початку цієї фази ми бачимо майже повністю освітлений місячний диск, а потім освітлена область поступово зменшується, поки не настає фаза останньої чверті.')" tabindex="0"><img class="phase_img" src="./images_moon/phase of moon/phase_16.png" alt="New Moon"></td>
+                            </tr>
+                            <tr>
+                                <td onclick="showMessage('Зменшуючий Місяць', 'Шоста фаза місячного циклу; настає між повним місяцем і фазою останньої чверті. Зменшувальні фази означають зменшення освітленості Місяця, тому на початку цієї фази ми бачимо майже повністю освітлений місячний диск, а потім освітлена область поступово зменшується, поки не настає фаза останньої чверті.')" tabindex="0"><img class="phase_img" src="./images_moon/phase of moon/phase_17.png" alt="Waxing Crescent"></td>
+                                <td class="td_18" onclick="showMessage('Зменшуючий Місяць', 'Шоста фаза місячного циклу; настає між повним місяцем і фазою останньої чверті. Зменшувальні фази означають зменшення освітленості Місяця, тому на початку цієї фази ми бачимо майже повністю освітлений місячний диск, а потім освітлена область поступово зменшується, поки не настає фаза останньої чверті.')" tabindex="0"><img class="phase_img" src="./images_moon/phase of moon/phase_18.png" alt="First Quarter"></td>
+                                <td onclick="showMessage('Зменшуючий Місяць', 'Шоста фаза місячного циклу; настає між повним місяцем і фазою останньої чверті. Зменшувальні фази означають зменшення освітленості Місяця, тому на початку цієї фази ми бачимо майже повністю освітлений місячний диск, а потім освітлена область поступово зменшується, поки не настає фаза останньої чверті.')" tabindex="0"><img class="phase_img" src="./images_moon/phase of moon/phase_19.png" alt="Waxing Gibbous"></td>
+                                <td onclick="showMessage('Остання чверть','Сьома фаза місячного циклу; настає, коли Місяць проходить три чверті своєї орбіти. При спостереженні із Землі Місяць розташовується під прямим кутом по відношенню до Сонця. Вона виглядає наполовину освітленою і помітна на вечірньому небі.')" tabindex="0"><img class="phase_img" src="./images_moon/phase of moon/phase_20.png" alt="Full Moon"></td>
+                                <td onclick="showMessage('Зменшуючий серп','Восьма та остання фаза місячного циклу; настає між фазою останньої чверті і молодим місяцем. Зменшуючі фази означає зменшення освітленості Місяця, тому на початку цієї фази ми бачимо половину місячного диска майже повністю освітленої, а потім освітлена область поступово зменшується доки не настає молодик.')" tabindex="0"><img class="phase_img" src="./images_moon/phase of moon/phase_21.png" alt="Waning Gibbous"></td>
+                                <td onclick="showMessage('Зменшуючий серп','Восьма та остання фаза місячного циклу; настає між фазою останньої чверті і молодим місяцем. Зменшуючі фази означає зменшення освітленості Місяця, тому на початку цієї фази ми бачимо половину місячного диска майже повністю освітленої, а потім освітлена область поступово зменшується доки не настає молодик.')" tabindex="0"><img class="phase_img" src="./images_moon/phase of moon/phase_22.png" alt="Last Quarter"></td>
+                                <td onclick="showMessage('Зменшуючий серп','Восьма та остання фаза місячного циклу; настає між фазою останньої чверті і молодим місяцем. Зменшуючі фази означає зменшення освітленості Місяця, тому на початку цієї фази ми бачимо половину місячного диска майже повністю освітленої, а потім освітлена область поступово зменшується доки не настає молодик.')" tabindex="0"><img class="phase_img" src="./images_moon/phase of moon/phase_23.png" alt="Waning Crescent"></td>
+                            </tr>
+                            <tr>
+                                <td onclick="showMessage('Зменшуючий серп','Восьма та остання фаза місячного циклу; настає між фазою останньої чверті і молодим місяцем. Зменшуючі фази означає зменшення освітленості Місяця, тому на початку цієї фази ми бачимо половину місячного диска майже повністю освітленої, а потім освітлена область поступово зменшується доки не настає молодик.')" tabindex="0"><img class="phase_img" src="./images_moon/phase of moon/phase_24.png" alt="New Moon"></td>
+                                <td onclick="showMessage('Зменшуючий серп','Восьма та остання фаза місячного циклу; настає між фазою останньої чверті і молодим місяцем. Зменшуючі фази означає зменшення освітленості Місяця, тому на початку цієї фази ми бачимо половину місячного диска майже повністю освітленої, а потім освітлена область поступово зменшується доки не настає молодик.')" tabindex="0"><img class="phase_img" src="./images_moon/phase of moon/phase_25.png" alt="Waxing Crescent"></td>
+                                <td onclick="showMessage('Зменшуючий серп','Восьма та остання фаза місячного циклу; настає між фазою останньої чверті і молодим місяцем. Зменшуючі фази означає зменшення освітленості Місяця, тому на початку цієї фази ми бачимо половину місячного диска майже повністю освітленої, а потім освітлена область поступово зменшується доки не настає молодик.')" tabindex="0"><img class="phase_img" src="./images_moon/phase of moon/phase_26.png" alt="First Quarter"></td>
+                                <td onclick="showMessage('Зменшуючий серп','Восьма та остання фаза місячного циклу; настає між фазою останньої чверті і молодим місяцем. Зменшуючі фази означає зменшення освітленості Місяця, тому на початку цієї фази ми бачимо половину місячного диска майже повністю освітленої, а потім освітлена область поступово зменшується доки не настає молодик.')" tabindex="0"><img class="phase_img" src="./images_moon/phase of moon/phase_27.png" alt="Waxing Gibbous"></td>
+                                <td onclick="showMessage('Молодий місяць','Перша фаза місячного циклу; настає на початку звернення Місяця орбітою. Місяць знаходиться між Землею та Сонцем, тому сторона Місяця, що знаходиться в тіні, звернена до Землі. Вона виглядає абсолютно темною, зазвичай невидимою неозброєним оком.')" tabindex="0"><img class="phase_img" src="./images_moon/phase of moon/phase_28.png" alt="Waxing Gibbous">
+                                </td><td></td><td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <script>
+                    function showMessage(title, text) {
+            document.getElementById('message-title').innerText = title;
+            document.getElementById('message-text').innerText = text;
+                    }
+                </script>
+                <footer>
+                    <div class="container_footer">
+                        <div class="container_footer_links">
+                            <ul class="list_footer_link">
+                                <li class="item_footer_link"><a href="" class="p_footer_link">О нас</a></li>
+                                <li class="item_footer_link"><a href="" class="p_footer_link">Новини</a></li>
+                                <li class="item_footer_link"><a href="" class="p_footer_link">Фази луни</a></li>
+                                <li class="item_footer_link"><a href="" class="p_footer_link">Інфоргафіка</a><li>
+                                <li class="item_footer_link"><a href="" class="p_footer_link">Супутники</a></li>
+                            </ul>
+                        </div>
+                        <div class="container_footer_title">
+                            <img class="img_footer" src="./images/header/log_header.png" alt="">
+                            <h2 class="footer_title">Saturn</h2>
+                        </div>
+                        
+                    </div>
+                </footer>
+        </main>
+    </div>
+</body>
+</html>
