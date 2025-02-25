@@ -95,12 +95,8 @@ nav {
 
 .title_moon {
   font-size: 50px;
-}
-
-.geo {
   display: flex;
-  justify-content: end;
-  font-size: 18px;
+  justify-content: center;
 }
 
 .moon_img {
@@ -232,4 +228,15 @@ td:focus::after {
   padding-top: 65px;
   justify-content: center;
   gap: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .title_moon {
+    display: flex;
+    justify-content: center;
+  }
+  .title_moon .header {
+    display: flex;
+    justify-content: center;
+  }
 }/*# sourceMappingURL=style_moon.css.map */
