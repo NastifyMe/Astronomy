@@ -303,7 +303,7 @@ nav {
 }
 
 .container_bg_first {
-  background: url(../../images/bg/Bg_1.jpg);
+  background: url(../images/bg/Bg_1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
