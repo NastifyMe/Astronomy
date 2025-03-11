@@ -110,7 +110,7 @@ button{
 }
 
 .bg_second {
-    background: url(/images/bg/bg_2.jpg);
+    background: url(./images_moon/moon/moon_1);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -312,7 +312,7 @@ nav {
 
 // Bg_1---------------------------------------------------------------------------------------------
 .container_bg_first{
-    background: url(/images/bg/Bg_1.jpg);
+    background: url(../images_moon/moon/moon_1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -362,11 +362,13 @@ nav {
 //     }
 // }
 .see_title {
+    padding-top: 20px;
     padding-left: 30px;
     color: #fff;
     font-size: 40px;
 }
 .p_see {
+    padding-bottom: 20px;
     padding-top: 60px;
     padding-left: 30px;
     color: var(--secondury-color);
