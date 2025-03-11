@@ -254,6 +254,13 @@ nav {
     align-items: center;
     text-align: center;
 }
+.hero {
+    background: url(/images/hero/hero_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
 
 
 @media (max-width: 768px) {
@@ -312,7 +319,7 @@ nav {
 
 // Bg_1---------------------------------------------------------------------------------------------
 .container_bg_first{
-    background: url(../../images/bg/Bg_1.jpg);
+    background: url(../images/bg/Bg_1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
