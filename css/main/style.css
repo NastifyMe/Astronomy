@@ -308,7 +308,7 @@ nav {
 }
 
 .container_bg_first {
-  background: url(../images/bg/Bg_1.jpg);
+  background: url(../../images/bg/bg-1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -426,7 +426,7 @@ nav {
 }
 
 .bg_second {
-  background: url(/images/bg/bg_2.jpg);
+  background: url(../../images/bg/bg-2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
